@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712E64032725CE9600F868DE /* TodoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64022725CE9600F868DE /* TodoTab.swift */; };
+		712E64072725CEDE00F868DE /* DevicesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64062725CEDE00F868DE /* DevicesTab.swift */; };
+		712E640B2725CF3400F868DE /* MeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E640A2725CF3400F868DE /* MeTab.swift */; };
+		712E64112725F71100F868DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64102725F71100F868DE /* MainView.swift */; };
+		712E64132726A46500F868DE /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64122726A46500F868DE /* ProjectRow.swift */; };
+		712E64152726A7DD00F868DE /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64142726A7DD00F868DE /* Project.swift */; };
+		712E64172726AD7000F868DE /* ReleaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64162726AD7000F868DE /* ReleaseState.swift */; };
+		712E641C272768BA00F868DE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E641B272768BA00F868DE /* Settings.swift */; };
+		712E641E27276F3900F868DE /* MeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E641D27276F3900F868DE /* MeCell.swift */; };
+		712E64202728548400F868DE /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E641F2728548300F868DE /* DeviceView.swift */; };
+		712E64222728559200F868DE /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E64212728559200F868DE /* Device.swift */; };
+		712E6424272855DE00F868DE /* DeviceKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E6423272855DE00F868DE /* DeviceKind.swift */; };
+		712E6426272951DC00F868DE /* NewProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E6425272951DC00F868DE /* NewProject.swift */; };
+		71565AF727BECD7200E45709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71565AF627BECD7200E45709 /* AppDelegate.swift */; };
+		71565AF927BECE3D00E45709 /* MainSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71565AF827BECE3D00E45709 /* MainSceneDelegate.swift */; };
+		7165B0172724673200C300B5 /* ListoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165B0162724673200C300B5 /* ListoApp.swift */; };
+		7165B0192724673200C300B5 /* ProjectsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165B0182724673200C300B5 /* ProjectsTab.swift */; };
+		7165B01B2724673900C300B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7165B01A2724673900C300B5 /* Assets.xcassets */; };
+		7165B01E2724673900C300B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7165B01D2724673900C300B5 /* Preview Assets.xcassets */; };
+		7165B0202724673A00C300B5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165B01F2724673A00C300B5 /* Persistence.swift */; };
+		7165B0232724673A00C300B5 /* Listo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7165B0212724673A00C300B5 /* Listo.xcdatamodeld */; };
+		717BF139272C11D2008097CF /* DeviceViewOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BF138272C11D1008097CF /* DeviceViewOrientation.swift */; };
+		71879291272B17B700645CBC /* ProjectsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71879290272B17B500645CBC /* ProjectsData.swift */; };
+		71879296272B4D8900645CBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71879298272B4D8900645CBC /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		712C795E274EE73F00D6DCEB /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = TODO.md; path = Listo/TODO.md; sourceTree = SOURCE_ROOT; };
+		712E63F727246CDE00F868DE /* Listo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Listo.entitlements; sourceTree = "<group>"; };
+		712E64022725CE9600F868DE /* TodoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTab.swift; sourceTree = "<group>"; };
+		712E64062725CEDE00F868DE /* DevicesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesTab.swift; sourceTree = "<group>"; };
+		712E640A2725CF3400F868DE /* MeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTab.swift; sourceTree = "<group>"; };
+		712E64102725F71100F868DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		712E64122726A46500F868DE /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
+		712E64142726A7DD00F868DE /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		712E64162726AD7000F868DE /* ReleaseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseState.swift; sourceTree = "<group>"; };
+		712E641B272768BA00F868DE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		712E641D27276F3900F868DE /* MeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeCell.swift; sourceTree = "<group>"; };
+		712E641F2728548300F868DE /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		712E64212728559200F868DE /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		712E6423272855DE00F868DE /* DeviceKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceKind.swift; sourceTree = "<group>"; };
+		712E6425272951DC00F868DE /* NewProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProject.swift; sourceTree = "<group>"; };
+		71565AF627BECD7200E45709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71565AF827BECE3D00E45709 /* MainSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneDelegate.swift; sourceTree = "<group>"; };
+		71565AFA27BED08A00E45709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7165B0132724673200C300B5 /* Listo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7165B0162724673200C300B5 /* ListoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListoApp.swift; sourceTree = "<group>"; };
+		7165B0182724673200C300B5 /* ProjectsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTab.swift; sourceTree = "<group>"; };
+		7165B01A2724673900C300B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7165B01D2724673900C300B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7165B01F2724673A00C300B5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7165B0222724673A00C300B5 /* Listo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Listo.xcdatamodel; sourceTree = "<group>"; };
+		717BF138272C11D1008097CF /* DeviceViewOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewOrientation.swift; sourceTree = "<group>"; };
+		71879290272B17B500645CBC /* ProjectsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsData.swift; sourceTree = "<group>"; };
+		71879297272B4D8900645CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71879299272B4D9200645CBC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7165B0102724673200C300B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712E63F82724BD4D00F868DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				712E64142726A7DD00F868DE /* Project.swift */,
+				712E64162726AD7000F868DE /* ReleaseState.swift */,
+				71879290272B17B500645CBC /* ProjectsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		712E63F92724BD5700F868DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7165B0182724673200C300B5 /* ProjectsTab.swift */,
+				712E64122726A46500F868DE /* ProjectRow.swift */,
+				712E6425272951DC00F868DE /* NewProject.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712E63FA2724BD6500F868DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		712E63FB2724BDC000F868DE /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				712E64102725F71100F868DE /* MainView.swift */,
+				712E63FC2724BDE700F868DE /* 1 - Projects */,
+				712E63FD2725CD5700F868DE /* 2 - TODO */,
+				712E63FE2725CD8300F868DE /* 3 - Devices */,
+				712E63FF2725CDD000F868DE /* 4 - Me */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		712E63FC2724BDE700F868DE /* 1 - Projects */ = {
+			isa = PBXGroup;
+			children = (
+				712E63F92724BD5700F868DE /* View */,
+				712E63F82724BD4D00F868DE /* Model */,
+			);
+			path = "1 - Projects";
+			sourceTree = "<group>";
+		};
+		712E63FD2725CD5700F868DE /* 2 - TODO */ = {
+			isa = PBXGroup;
+			children = (
+				712E64002725CE2100F868DE /* View */,
+				712E64012725CE2E00F868DE /* Model */,
+			);
+			path = "2 - TODO";
+			sourceTree = "<group>";
+		};
+		712E63FE2725CD8300F868DE /* 3 - Devices */ = {
+			isa = PBXGroup;
+			children = (
+				712E64052725CECB00F868DE /* View */,
+				712E64042725CEC300F868DE /* Model */,
+			);
+			path = "3 - Devices";
+			sourceTree = "<group>";
+		};
+		712E63FF2725CDD000F868DE /* 4 - Me */ = {
+			isa = PBXGroup;
+			children = (
+				712E64182727682A00F868DE /* Settings */,
+				712E64092725CF1E00F868DE /* View */,
+				712E64082725CF0B00F868DE /* Model */,
+			);
+			path = "4 - Me";
+			sourceTree = "<group>";
+		};
+		712E64002725CE2100F868DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712E64022725CE9600F868DE /* TodoTab.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712E64012725CE2E00F868DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		712E64042725CEC300F868DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				712E64212728559200F868DE /* Device.swift */,
+				712E6423272855DE00F868DE /* DeviceKind.swift */,
+				717BF138272C11D1008097CF /* DeviceViewOrientation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		712E64052725CECB00F868DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712E64062725CEDE00F868DE /* DevicesTab.swift */,
+				712E641F2728548300F868DE /* DeviceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712E64082725CF0B00F868DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		712E64092725CF1E00F868DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712E640A2725CF3400F868DE /* MeTab.swift */,
+				712E641D27276F3900F868DE /* MeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712E64182727682A00F868DE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				712E64192727689F00F868DE /* View */,
+				712E641A272768A700F868DE /* Model */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		712E64192727689F00F868DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712E641B272768BA00F868DE /* Settings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712E641A272768A700F868DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7165B00A2724673200C300B5 = {
+			isa = PBXGroup;
+			children = (
+				7165B0152724673200C300B5 /* Listo */,
+				7165B0142724673200C300B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7165B0142724673200C300B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7165B0132724673200C300B5 /* Listo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7165B0152724673200C300B5 /* Listo */ = {
+			isa = PBXGroup;
+			children = (
+				71565AFA27BED08A00E45709 /* Info.plist */,
+				712C795E274EE73F00D6DCEB /* TODO.md */,
+				7165B0162724673200C300B5 /* ListoApp.swift */,
+				71565AF627BECD7200E45709 /* AppDelegate.swift */,
+				71565AF827BECE3D00E45709 /* MainSceneDelegate.swift */,
+				712E63FB2724BDC000F868DE /* Tabs */,
+				712E63FA2724BD6500F868DE /* Resources */,
+				7165B01F2724673A00C300B5 /* Persistence.swift */,
+				712E63F727246CDE00F868DE /* Listo.entitlements */,
+				7165B0212724673A00C300B5 /* Listo.xcdatamodeld */,
+				7165B01A2724673900C300B5 /* Assets.xcassets */,
+				71879298272B4D8900645CBC /* Localizable.strings */,
+				7165B01C2724673900C300B5 /* Preview Content */,
+			);
+			path = Listo;
+			sourceTree = "<group>";
+		};
+		7165B01C2724673900C300B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7165B01D2724673900C300B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7165B0122724673200C300B5 /* Listo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7165B0262724673A00C300B5 /* Build configuration list for PBXNativeTarget "Listo" */;
+			buildPhases = (
+				7165B00F2724673200C300B5 /* Sources */,
+				7165B0102724673200C300B5 /* Frameworks */,
+				7165B0112724673200C300B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Listo;
+			productName = Listo;
+			productReference = 7165B0132724673200C300B5 /* Listo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7165B00B2724673200C300B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7165B0122724673200C300B5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 7165B00E2724673200C300B5 /* Build configuration list for PBXProject "Listo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 7165B00A2724673200C300B5;
+			productRefGroup = 7165B0142724673200C300B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7165B0122724673200C300B5 /* Listo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7165B0112724673200C300B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7165B01E2724673900C300B5 /* Preview Assets.xcassets in Resources */,
+				71879296272B4D8900645CBC /* Localizable.strings in Resources */,
+				7165B01B2724673900C300B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7165B00F2724673200C300B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712E640B2725CF3400F868DE /* MeTab.swift in Sources */,
+				712E6424272855DE00F868DE /* DeviceKind.swift in Sources */,
+				712E64112725F71100F868DE /* MainView.swift in Sources */,
+				717BF139272C11D2008097CF /* DeviceViewOrientation.swift in Sources */,
+				7165B0202724673A00C300B5 /* Persistence.swift in Sources */,
+				712E641E27276F3900F868DE /* MeCell.swift in Sources */,
+				712E64152726A7DD00F868DE /* Project.swift in Sources */,
+				7165B0232724673A00C300B5 /* Listo.xcdatamodeld in Sources */,
+				71565AF727BECD7200E45709 /* AppDelegate.swift in Sources */,
+				7165B0192724673200C300B5 /* ProjectsTab.swift in Sources */,
+				712E641C272768BA00F868DE /* Settings.swift in Sources */,
+				712E64072725CEDE00F868DE /* DevicesTab.swift in Sources */,
+				712E64222728559200F868DE /* Device.swift in Sources */,
+				712E64132726A46500F868DE /* ProjectRow.swift in Sources */,
+				712E64202728548400F868DE /* DeviceView.swift in Sources */,
+				712E64032725CE9600F868DE /* TodoTab.swift in Sources */,
+				712E6426272951DC00F868DE /* NewProject.swift in Sources */,
+				712E64172726AD7000F868DE /* ReleaseState.swift in Sources */,
+				71565AF927BECE3D00E45709 /* MainSceneDelegate.swift in Sources */,
+				7165B0172724673200C300B5 /* ListoApp.swift in Sources */,
+				71879291272B17B700645CBC /* ProjectsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71879298272B4D8900645CBC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71879297272B4D8900645CBC /* en */,
+				71879299272B4D9200645CBC /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7165B0242724673A00C300B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7165B0252724673A00C300B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7165B0272724673A00C300B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Listo/Listo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Listo/Preview Content\"";
+				DEVELOPMENT_TEAM = 54QRF489YS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Listo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillo.Listo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		7165B0282724673A00C300B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Listo/Listo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Listo/Preview Content\"";
+				DEVELOPMENT_TEAM = 54QRF489YS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Listo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillo.Listo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7165B00E2724673200C300B5 /* Build configuration list for PBXProject "Listo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7165B0242724673A00C300B5 /* Debug */,
+				7165B0252724673A00C300B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7165B0262724673A00C300B5 /* Build configuration list for PBXNativeTarget "Listo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7165B0272724673A00C300B5 /* Debug */,
+				7165B0282724673A00C300B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7165B0212724673A00C300B5 /* Listo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7165B0222724673A00C300B5 /* Listo.xcdatamodel */,
+			);
+			currentVersion = 7165B0222724673A00C300B5 /* Listo.xcdatamodel */;
+			path = Listo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7165B00B2724673200C300B5 /* Project object */;
+}

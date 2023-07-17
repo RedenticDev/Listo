@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Listo
+
+  Created by Antoine Lethimonnier on 28/10/2021.
+  
+*/
+// Tabs
+"PROJECTS" = "Projets";
+"TODO" = "À faire";
+"DEVICES" = "Appareils";
+"ME" = "Moi";
+
+// Projects tab
+"NEW_PROJECT" = "Nouveau projet";
+
+// Devices tab
+"THIS_DEVICE" = "Cet appareil";
+"ADD_TO_LIST" = "Ajouter à la liste";
+"REMOVE_FROM_LIST" = "Supprimer de la liste";
+"ALL_DEVICES" = "Tous les appareils";
+
+// Me tab
+"NAME" = "Nom";
+
+"SETTINGS" = "Options";
